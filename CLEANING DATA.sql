@@ -13,7 +13,7 @@ CREATE TABLE layoffs (
     country VARCHAR(100),
     funds_raised_millions DECIMAL(10,2)
 );
-
+-- comment here
 LOAD DATA INFILE '/Users/hildatorres/Documents/SQL PRACTICE/layoffs.csv'
 INTO TABLE layoffs
 FIELDS TERMINATED BY ','  -- Ensure values are separated by commas
